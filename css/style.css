@@ -160,6 +160,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc2255', end
   border-radius: 5px;
 }
 
+.card img:hover {
+  width: 205px;
+  height: 205px;
+  
+}
+
 .secretDisplay {
   display: none;
 
