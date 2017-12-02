@@ -56,12 +56,15 @@ $('.card').on('click', function() {
 
 });
 
+
+
 $('#allSel').on('click', function() {
   $('.card').attr('class','card selected');
   $totalSelected = 3;
   $('#contentBox').empty();
   $('#contentBox').append($('<br/>'));
   $('#contentBox').append($('<p>You have selected all three games to buy.</p>'));
+  $('#descriptionBox').css('display', 'none');
   $('#descriptionBox').fadeIn(1600);
   console.log($totalSelected);
 });
